@@ -10,6 +10,9 @@ import FeatureSectionImage1 from "../../public/images/feature/feature1.webp";
 import FeatureSectionImage2 from "../../public/images/feature/feature2.svg";
 import FeatureSectionImage3 from "../../public/images/feature/feature3.svg";
 
+/* -------------------------------- BENEFITS -------------------------------- */
+import BenefitsSectionImage from "../../public/images/benefits/BenefitsSectionImage.png";
+
 export {
   logo,
   HeroImage1,
@@ -19,4 +22,5 @@ export {
   FeatureSectionImage1,
   FeatureSectionImage2,
   FeatureSectionImage3,
+  BenefitsSectionImage,
 };
