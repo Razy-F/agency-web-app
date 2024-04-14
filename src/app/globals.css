@@ -5,5 +5,17 @@
 @layer components {
   .btnCtx{
     @apply bg-white text-primary py-3 px-5 rounded-[10px] mx-auto w-fit text-[16px] font-Jost font-medium border-[1px]
-  }
+  }  
+}
+
+@layer utilities {
+    .jostM400 {
+        @apply font-Jost font-normal
+    }
+    .jostM500 {
+        @apply font-Jost font-medium
+    }
+    .jostM700 {
+        @apply font-Jost font-bold
+    }
 }

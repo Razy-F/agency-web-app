@@ -3,18 +3,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import logo from "../../public/images/logo.svg";
 import { AiOutlineClose } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { TfiWorld } from "react-icons/tfi";
 import { links } from "../constants/index";
+import { logo } from "@/constants/images";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="w-full fixed top-0 left-0 z-100 flex justify-center">
+    <header className="w-full fixed top-0 left-0 z-100 flex justify-center backdrop-blur-[20px]">
       <nav className="xxl:mx-20 lg:mx-16 mx-auto max-w-[1260px] w-full">
-        <div className="flex items-center justify-between text-primary lg:px-4 md:px-10 px-1 lg:pt-5 lg:pb-5 h-[75px] backdrop-blur-[20px]">
+        <div className="flex items-center justify-between text-primary lg:px-4 md:px-10 px-1 lg:pt-5 lg:pb-5 h-[75px]">
           {/* logo */}
           <Link href="/">
             <Image
