@@ -13,6 +13,7 @@ import FeatureSectionImage3 from "../../public/images/feature/feature3.svg";
 /* -------------------------------- BENEFITS -------------------------------- */
 import BenefitsSectionImage from "../../public/images/benefits/BenefitsSectionImage.png";
 
+/* ----------------------------- Pricing imports ---------------------------- */
 export {
   logo,
   HeroImage1,
