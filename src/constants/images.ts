@@ -15,6 +15,9 @@ import BenefitsSectionImage from "../../public/images/benefits/BenefitsSectionIm
 
 /* ----------------------------- Discount imports ---------------------------- */
 import DiscountSectionImage from "../../public/images/discount/Discount1.svg";
+
+/* ----------------------------- Footer imports ----------------------------- */
+import FooterLogo from "../../public/images/footer/logoLarge.svg";
 export {
   logo,
   HeroImage1,
@@ -26,4 +29,5 @@ export {
   FeatureSectionImage3,
   BenefitsSectionImage,
   DiscountSectionImage,
+  FooterLogo,
 };
