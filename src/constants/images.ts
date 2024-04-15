@@ -13,7 +13,8 @@ import FeatureSectionImage3 from "../../public/images/feature/feature3.svg";
 /* -------------------------------- BENEFITS -------------------------------- */
 import BenefitsSectionImage from "../../public/images/benefits/BenefitsSectionImage.png";
 
-/* ----------------------------- Pricing imports ---------------------------- */
+/* ----------------------------- Discount imports ---------------------------- */
+import DiscountSectionImage from "../../public/images/discount/Discount1.svg";
 export {
   logo,
   HeroImage1,
@@ -24,4 +25,5 @@ export {
   FeatureSectionImage2,
   FeatureSectionImage3,
   BenefitsSectionImage,
+  DiscountSectionImage,
 };
